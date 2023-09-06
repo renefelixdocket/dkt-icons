@@ -1,6 +1,6 @@
 {
-  "name": "dkt-icons",
-  "version": "1.0.3",
+  "name": "@renefelixdocket/rf-icons",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -28,5 +28,8 @@
     "rimraf": "^5.0.1",
     "rollup": "^3.29.0",
     "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "@renefelixdocket:registry": "https://npm.pkg.github.com"
   }
 }
